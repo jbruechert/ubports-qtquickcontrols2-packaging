@@ -1,6 +1,6 @@
 usr/lib/*/qt5/qml/Qt/labs/calendar/DayOfWeekRow.qml
-usr/lib/*/qt5/qml/Qt/labs/calendar/libqtlabscalendarplugin.so
 usr/lib/*/qt5/qml/Qt/labs/calendar/MonthGrid.qml
+usr/lib/*/qt5/qml/Qt/labs/calendar/WeekNumberColumn.qml
+usr/lib/*/qt5/qml/Qt/labs/calendar/libqtlabscalendarplugin.so
 usr/lib/*/qt5/qml/Qt/labs/calendar/plugins.qmltypes
 usr/lib/*/qt5/qml/Qt/labs/calendar/qmldir
-usr/lib/*/qt5/qml/Qt/labs/calendar/WeekNumberColumn.qml
