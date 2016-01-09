@@ -1,0 +1,12 @@
+usr/include/*/qt5/QtLabsControls/QtLabsControls
+usr/include/*/qt5/QtLabsControls/QtLabsControlsDepends
+usr/include/*/qt5/QtLabsControls/QtLabsControlsVersion
+usr/include/*/qt5/QtLabsControls/qtlabscontrolsversion.h
+usr/include/*/qt5/QtLabsTemplates/QtLabsTemplates
+usr/include/*/qt5/QtLabsTemplates/QtLabsTemplatesDepends
+usr/include/*/qt5/QtLabsTemplates/QtLabsTemplatesVersion
+usr/include/*/qt5/QtLabsTemplates/qtlabstemplatesversion.h
+usr/lib/*/libQt5LabsControls.a
+usr/lib/*/libQt5LabsControls.prl
+usr/lib/*/libQt5LabsTemplates.prl
+usr/lib/*/libQt5LabsTemplates.so

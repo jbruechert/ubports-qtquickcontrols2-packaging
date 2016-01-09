@@ -1,0 +1,99 @@
+Source: qtquickcontrols2-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>,
+           Pino Toscano <pino@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Timo Jyrinki <timo@debian.org>,
+           Dmitry Shachnev <mitya57@debian.org>
+Build-Depends: debhelper (>= 9),
+               dpkg-dev (>= 1.16.1),
+               pkg-kde-tools,
+               qtbase5-private-dev (>= 5.6.0~beta+dfsg~),
+               qtdeclarative5-private-dev (>= 5.6.0~beta~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.0~beta+dfsg~),
+                     qtbase5-doc-html (>= 5.6.0~beta+dfsg~),
+                     qtdeclarative5-doc-html (>= 5.6.0~beta~),
+                     qttools5-dev-tools (>= 5.6.0~beta~)
+Standards-Version: 3.9.6
+Homepage: https://code.qt.io/cgit/qt/qtquickcontrols2.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtquickcontrols2.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtquickcontrols2.git
+
+Package: libqt5labstemplates5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 LabsTemplates library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt 5 LabsTemplates library, which is part of
+ Qt Quick Controls 2.
+
+Package: qtquickcontrols2-5-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libqt5labstemplates5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt 5 Quick Controls 2 development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Controls 2 development files.
+
+Package: qml-module-qt-labs-calendar
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}
+Description: Qt 5 qt.labs.calendar QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the QML qt.labs.calendar module, which is part of
+ Qt Quick Controls 2.
+
+Package: qml-module-qt-labs-controls
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}
+Description: Qt 5 qt.labs.controls QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the QML qt.labs.controls module, which is part of
+ Qt Quick Controls 2.
+
+Package: qml-module-qt-labs-templates
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}
+Description: Qt 5 qt.labs.templates QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the QML qt.labs.templates module, which is part of
+ Qt Quick Controls 2.
+
+Package: qtquickcontrols2-5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Quick Controls 2 documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Controls 2 documentation in qch format.
+
+Package: qtquickcontrols2-5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Quick Controls 2 HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Controls 2 documentation in HTML format.
