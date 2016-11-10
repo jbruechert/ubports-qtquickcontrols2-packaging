@@ -21,9 +21,13 @@ override_dh_auto_install-arch:
 	dh_auto_install
 
 	# Remove private headers and the .pri files
-	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtLabsControls/*/QtLabsControls/private/
-	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtLabsTemplates/*/QtLabsTemplates/private/
+	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtQuickControls2/5.*
+	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtQuickTemplates2/5.*
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/*_private.pri
+
+	# Remove .la files
+	rm -fv debian/tmp/usr/lib/*/libQt5QuickControls2.la
+	rm -fv debian/tmp/usr/lib/*/libQt5QuickTemplates2.la
 
 override_dh_install:
 	dh_install --fail-missing
