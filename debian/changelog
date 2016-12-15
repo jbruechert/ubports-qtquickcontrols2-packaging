@@ -1,5 +1,5 @@
-qtquickcontrols2-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
+qtquickcontrols2-opensource-src (5.7.1-1) unstable; urgency=medium
 
   * Initial release (closes: #697509).
 
- -- Dmitry Shachnev <mitya57@debian.org>  Sat, 09 Jan 2016 23:30:29 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 15 Dec 2016 12:22:57 +0300
