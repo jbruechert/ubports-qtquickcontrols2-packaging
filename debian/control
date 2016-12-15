@@ -50,7 +50,7 @@ Description: Qt 5 Quick Templates 2 library
 Package: qml-module-qt-labs-calendar
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 qt.labs.calendar QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -61,7 +61,7 @@ Description: Qt 5 qt.labs.calendar QML module
 Package: qml-module-qtquick-controls2
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Qt Quick Controls 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -71,7 +71,7 @@ Description: Qt 5 Qt Quick Controls 2 QML module
 Package: qml-module-qtquick-templates2
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Qt Quick Templates 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
