@@ -3,11 +3,13 @@ usr/include/*/qt5/QtQuickControls2/QtQuickControls2
 usr/include/*/qt5/QtQuickControls2/QtQuickControls2Depends
 usr/include/*/qt5/QtQuickControls2/QtQuickControls2Version
 usr/include/*/qt5/QtQuickControls2/qquickstyle.h
+usr/include/*/qt5/QtQuickControls2/qtquickcontrols2-config.h
 usr/include/*/qt5/QtQuickControls2/qtquickcontrols2global.h
 usr/include/*/qt5/QtQuickControls2/qtquickcontrols2version.h
 usr/include/*/qt5/QtQuickTemplates2/QtQuickTemplates2
 usr/include/*/qt5/QtQuickTemplates2/QtQuickTemplates2Depends
 usr/include/*/qt5/QtQuickTemplates2/QtQuickTemplates2Version
+usr/include/*/qt5/QtQuickTemplates2/qtquicktemplates2-config.h
 usr/include/*/qt5/QtQuickTemplates2/qtquicktemplates2version.h
 usr/lib/*/cmake/Qt5QuickControls2/Qt5QuickControls2Config.cmake
 usr/lib/*/cmake/Qt5QuickControls2/Qt5QuickControls2ConfigVersion.cmake
