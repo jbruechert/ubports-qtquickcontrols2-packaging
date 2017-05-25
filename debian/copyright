@@ -26,6 +26,11 @@ Files: tests/manual/shared/FontAwesome.otf
 Copyright: 2015 Dave Gandy
 License: OFL-1.1
 
+Files: examples/quickcontrols2/swipetoremove/fonts/fontello.ttf
+       examples/quickcontrols2/texteditor/fonts/fontello.ttf
+Copyright: 2013 Aristeides Stathopoulos
+License: OFL-1.1
+
 Files: *.qdoc
 Copyright: 2015 The Qt Company Ltd.
 License: GFDL-NIV-1.3
