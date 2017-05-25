@@ -5,6 +5,7 @@ qtquickcontrols2-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.9.0.
   * Update install files for the new release.
   * Add new qml-module-qt-labs-platform binary package.
+  * Update the symbols files (all removed symbols were private).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 May 2017 15:46:18 +0300
 
