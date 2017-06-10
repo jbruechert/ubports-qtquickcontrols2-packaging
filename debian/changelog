@@ -1,6 +1,7 @@
 qtquickcontrols2-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
   * New upstream final release.
+  * Add my name to Uploaders.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:14:42 -0500
 
