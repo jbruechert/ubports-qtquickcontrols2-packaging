@@ -1,7 +1,12 @@
 qtquickcontrols2-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream final release.
   * Add my name to Uploaders.
+
+  [ Dmitry Shachnev ]
+  * Make qml-module-qtquick-controls2 depend on qml-module-qtquick-templates2
+    (closes: #861135).
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:14:42 -0500
 

@@ -74,7 +74,7 @@ Description: Qt 5 qt.labs.platform QML module
 Package: qml-module-qtquick-controls2
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-qtquick-templates2, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Qt Quick Controls 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
