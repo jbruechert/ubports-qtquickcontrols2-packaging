@@ -16,6 +16,7 @@ Build-Depends: debhelper (>= 9),
                qml-module-qtquick-window2 (>= 5.9.1~),
                qml-module-qttest (>= 5.9.1~),
                qtbase5-private-dev (>= 5.9.1+dfsg~),
+               qtdeclarative5-dev-tools (>= 5.9.1~),
                qtdeclarative5-private-dev (>= 5.9.1~),
                xauth,
                xvfb
