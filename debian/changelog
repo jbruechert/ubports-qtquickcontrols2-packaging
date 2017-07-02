@@ -5,6 +5,7 @@ qtquickcontrols2-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.9.1.
   * Add build-dependency on qtdeclarative5-dev-tools, to get QML cache
     files generated.
+  * Install the QML cache files.
   * Bump Standards-Version to 4.0.0, no changes needed.
   * Add link to the bug because of which we ignore the tests results.
 
