@@ -2,6 +2,7 @@ qtquickcontrols2-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Bump Qt build-dependencies to 5.9.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Jul 2017 20:25:35 +0300
 
