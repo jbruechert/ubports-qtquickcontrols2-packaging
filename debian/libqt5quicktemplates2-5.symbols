@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~rc amd64
+# SymbolsHelper-Confirmed: 5.9.1 amd64 arm64 i386
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QQuickDial10setPressedEb@Qt_5_PRIVATE_API 5.6.0~beta
@@ -67,6 +67,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN10QQuickPage15setContentWidthEd@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN10QQuickPage16setContentHeightEd@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN10QQuickPage16staticMetaObjectE@Qt_5_PRIVATE_API 5.7.1
+ _ZN10QQuickPage17componentCompleteEv@Qt_5_PRIVATE_API 5.9.1
  _ZN10QQuickPage17contentItemChangeEP10QQuickItemS1_@Qt_5_PRIVATE_API 5.7.1
  _ZN10QQuickPage19contentWidthChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN10QQuickPage20contentHeightChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
@@ -534,6 +535,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN13QQuickSpinBox20textFromValueChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN13QQuickSpinBox20valueFromTextChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN13QQuickSpinBox23inputMethodHintsChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN13QQuickSpinBox26accessibilityActiveChangedEb@Qt_5_PRIVATE_API 5.9.1
  _ZN13QQuickSpinBox27inputMethodComposingChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN13QQuickSpinBox5setToEi@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN13QQuickSpinBox7setFromEi@Qt_5_PRIVATE_API 5.6.0~beta
@@ -940,11 +942,13 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN17QQuickMenuPrivate14contentData_atEP16QQmlListPropertyI7QObjectEi@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate14itemChildAddedEP10QQuickItemS1_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate15setCurrentIndexEi@Qt_5_PRIVATE_API 5.7.1
+ _ZN17QQuickMenuPrivate16activateNextItemEv@Qt_5_PRIVATE_API 5.9.1
  _ZN17QQuickMenuPrivate17contentData_clearEP16QQmlListPropertyI7QObjectE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate17contentData_countEP16QQmlListPropertyI7QObjectE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate17itemParentChangedEP10QQuickItemS1_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate18contentData_appendEP16QQmlListPropertyI7QObjectEPS1_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate19itemGeometryChangedEP10QQuickItem20QQuickGeometryChangeRK6QRectF@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN17QQuickMenuPrivate20activatePreviousItemEv@Qt_5_PRIVATE_API 5.9.1
  _ZN17QQuickMenuPrivate23itemSiblingOrderChangedEP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate24onItemActiveFocusChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate8moveItemEii@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1154,6 +1158,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN20QQuickControlPrivate16setBottomPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickControlPrivate17updateLocaleRecurEP10QQuickItemRK7QLocale@Qt_5_PRIVATE_API 5.7.1
  _ZN20QQuickControlPrivate18updateHoverEnabledEbb@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN20QQuickControlPrivate21setContentItem_helperEP10QQuickItemb@Qt_5_PRIVATE_API 5.9.1
  _ZN20QQuickControlPrivate23updateHoverEnabledRecurEP10QQuickItemb@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN20QQuickControlPrivate26accessibilityActiveChangedEb@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickControlPrivate9ExtraDataC1Ev@Qt_5_PRIVATE_API 5.7.1
@@ -1456,6 +1461,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZNK10QQuickDial8stepSizeEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK10QQuickDial9isPressedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK10QQuickMenu10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK10QQuickMenu11defaultFontEv@Qt_5_PRIVATE_API 5.9.1
  _ZNK10QQuickMenu12contentModelEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK10QQuickMenu14accessibleRoleEv@Qt_5_PRIVATE_API 5.7.1
  _ZNK10QQuickMenu5titleEv@Qt_5_PRIVATE_API 5.7.1
@@ -2134,6 +2140,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  (c++)"non-virtual thunk to QQuickMenuPrivate::itemParentChanged(QQuickItem*, QQuickItem*)@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickMenuPrivate::itemSiblingOrderChanged(QQuickItem*)@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickOverlay::~QQuickOverlay()@Qt_5_PRIVATE_API" 5.7.1
+ (c++)"non-virtual thunk to QQuickPage::componentComplete()@Qt_5_PRIVATE_API" 5.9.1
  (c++)"non-virtual thunk to QQuickPopup::classBegin()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickPopup::componentComplete()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickPopup::~QQuickPopup()@Qt_5_PRIVATE_API" 5.7.1

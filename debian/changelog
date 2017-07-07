@@ -3,6 +3,7 @@ qtquickcontrols2-opensource-src (5.9.1-2) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Simplify .install files to fix build failure on architectures where
     QML cache is not supported.
+  * Update debian/libqt5quicktemplates2-5.symbols for 5.9.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Jul 2017 12:58:15 +0300
 
