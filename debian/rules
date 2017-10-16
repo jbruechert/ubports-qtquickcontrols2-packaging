@@ -6,7 +6,7 @@
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 %:
-	dh $@ --parallel --with pkgkde_symbolshelper,qmlcdeps
+	dh $@ --with pkgkde_symbolshelper,qmlcdeps
 
 override_dh_auto_configure:
 	qmake -qt5 QT_BUILD_PARTS+=tests
@@ -29,8 +29,8 @@ override_dh_auto_install-arch:
 	rm -fv debian/tmp/usr/lib/*/libQt5QuickControls2.la
 	rm -fv debian/tmp/usr/lib/*/libQt5QuickTemplates2.la
 
-override_dh_install:
-	dh_install --fail-missing
+override_dh_missing:
+	dh_missing --fail-missing
 
 override_dh_auto_test-arch:
 	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
