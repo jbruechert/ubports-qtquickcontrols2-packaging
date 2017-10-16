@@ -6,6 +6,7 @@ qtquickcontrols2-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   * Use dh_qmlcdeps to get proper dependencies for .qmlc files.
   * Update symbols files from the current build log.
   * Use debhelper compat level 10 and dh_missing.
+  * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 16 Oct 2017 11:11:42 +0300
 
