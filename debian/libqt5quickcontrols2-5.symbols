@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~rc amd64
+# SymbolsHelper-Confirmed: 5.9.2 amd64
 libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1
  Qt_5.1@Qt_5.1 5.7.1
@@ -41,8 +41,8 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZN17QQuickTumblerView11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN17QQuickTumblerView11qt_metacastEPKc@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN17QQuickTumblerView11setDelegateEP13QQmlComponent@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN17QQuickTumblerView11updateModelEv@Qt_5_PRIVATE_API 5.9.2
  _ZN17QQuickTumblerView12modelChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN17QQuickTumblerView12updatePolishEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN17QQuickTumblerView15delegateChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN17QQuickTumblerView15geometryChangedERK6QRectFS2_@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN17QQuickTumblerView16staticMetaObjectE@Qt_5_PRIVATE_API 5.9.0~rc

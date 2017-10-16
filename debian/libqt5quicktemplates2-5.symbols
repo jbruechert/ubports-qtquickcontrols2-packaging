@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.1 amd64 arm64 i386
+# SymbolsHelper-Confirmed: 5.9.2 amd64
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QQuickDial10setPressedEb@Qt_5_PRIVATE_API 5.6.0~beta
@@ -725,6 +725,9 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN14QQuickTextArea8releasedEP16QQuickMouseEvent@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN14QQuickTextAreaC1EP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QQuickTextAreaC2EP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN14QQuickTextAreaD0Ev@Qt_5_PRIVATE_API 5.9.2
+ _ZN14QQuickTextAreaD1Ev@Qt_5_PRIVATE_API 5.9.2
+ _ZN14QQuickTextAreaD2Ev@Qt_5_PRIVATE_API 5.9.2
  _ZN15QQuickContainer10insertItemEiP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickContainer10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickContainer10removeItemEi@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1027,6 +1030,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN18QQuickItemDelegateC2EP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN18QQuickItemDelegateC2ER25QQuickItemDelegatePrivateP10QQuickItem@Qt_5_PRIVATE_API 5.7.1
  _ZN19QQuickBusyIndicator10setRunningEb@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN19QQuickBusyIndicator10touchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.9.2
  _ZN19QQuickBusyIndicator11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickBusyIndicator11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickBusyIndicator14runningChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1049,19 +1053,16 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN19QQuickMenuSeparator16staticMetaObjectE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QQuickMenuSeparatorC1EP10QQuickItem@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QQuickMenuSeparatorC2EP10QQuickItem@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QQuickPageIndicator10touchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.9.2
  _ZN19QQuickPageIndicator11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator11setDelegateEP13QQmlComponent@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator12countChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QQuickPageIndicator14mouseMoveEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator14setInteractiveEb@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator15delegateChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QQuickPageIndicator15mousePressEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator15setCurrentIndexEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QQuickPageIndicator16mouseUngrabEventEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator17contentItemChangeEP10QQuickItemS1_@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QQuickPageIndicator17mouseReleaseEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator18interactiveChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator19currentIndexChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QQuickPageIndicator8setCountEi@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1252,6 +1253,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN21QQuickRangeSliderNodeD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN21QQuickRangeSliderNodeD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN21QQuickRangeSliderNodeD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN21QQuickScrollIndicator10touchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.9.2
  _ZN21QQuickScrollIndicator11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN21QQuickScrollIndicator11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN21QQuickScrollIndicator11setPositionEd@Qt_5_PRIVATE_API 5.6.0~beta
@@ -2154,6 +2156,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  (c++)"non-virtual thunk to QQuickTabBar::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickTextArea::classBegin()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickTextArea::componentComplete()@Qt_5_PRIVATE_API" 5.7.1
+ (c++)"non-virtual thunk to QQuickTextArea::~QQuickTextArea()@Qt_5_PRIVATE_API" 5.9.2
  (c++)"non-virtual thunk to QQuickTextField::classBegin()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickTextField::componentComplete()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickTumbler::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
