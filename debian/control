@@ -10,7 +10,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.26~),
                qml-module-qtgraphicaleffects (>= 5.9.2~),
                qml-module-qtquick-layouts (>= 5.9.2~),
                qml-module-qtquick-window2 (>= 5.9.2~),
@@ -52,7 +52,7 @@ Description: Qt 5 Quick Templates 2 library
 Package: qml-module-qt-labs-calendar
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${qmlc:Depends}, ${shlibs:Depends}
 Description: Qt 5 qt.labs.calendar QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -75,7 +75,10 @@ Description: Qt 5 qt.labs.platform QML module
 Package: qml-module-qtquick-controls2
 Architecture: any
 Multi-Arch: same
-Depends: qml-module-qtquick-templates2, ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-qtquick-templates2,
+         ${misc:Depends},
+         ${qmlc:Depends},
+         ${shlibs:Depends}
 Description: Qt 5 Qt Quick Controls 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
