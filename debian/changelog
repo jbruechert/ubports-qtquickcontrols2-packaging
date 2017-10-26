@@ -1,3 +1,9 @@
+qtquickcontrols2-opensource-src (5.9.2-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 26 Oct 2017 17:54:37 +0300
+
 qtquickcontrols2-opensource-src (5.9.2-1) experimental; urgency=medium
 
   * New upstream release.
