@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.2 amd64
+# SymbolsHelper-Confirmed: 5.9.3 amd64
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QQuickDial10setPressedEb@Qt_5_PRIVATE_API 5.6.0~beta
@@ -739,6 +739,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN15QQuickContainer15contentChildrenEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickContainer15setCurrentIndexEi@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickContainer16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN15QQuickContainer17componentCompleteEv@Qt_5_PRIVATE_API 5.9.3
  _ZN15QQuickContainer17contentItemChangeEP10QQuickItemS1_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickContainer18currentItemChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickContainer19currentIndexChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1295,6 +1296,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN21QQuickTumblerAttachedD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QQuickContainerPrivate10insertItemEiP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QQuickContainerPrivate10removeItemEiP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN22QQuickContainerPrivate12reorderItemsEv@Qt_5_PRIVATE_API 5.9.3
  _ZN22QQuickContainerPrivate13itemDestroyedEP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QQuickContainerPrivate14contentData_atEP16QQmlListPropertyI7QObjectEi@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QQuickContainerPrivate14itemChildAddedEP10QQuickItemS1_@Qt_5_PRIVATE_API 5.6.0~beta
@@ -2121,6 +2123,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  (c++)"non-virtual thunk to QQuickApplicationWindow::~QQuickApplicationWindow()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickComboBox::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickComboBox::~QQuickComboBox()@Qt_5_PRIVATE_API" 5.7.1
+ (c++)"non-virtual thunk to QQuickContainer::componentComplete()@Qt_5_PRIVATE_API" 5.9.3
  (c++)"non-virtual thunk to QQuickContainer::~QQuickContainer()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickContainerPrivate::itemChildAdded(QQuickItem*, QQuickItem*)@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickContainerPrivate::itemDestroyed(QQuickItem*)@Qt_5_PRIVATE_API" 5.6.0~beta
