@@ -1,3 +1,9 @@
+qtquickcontrols2-opensource-src (5.9.3-0ubports2) xenial; urgency=medium
+
+  * Build for UBports 
+
+ -- JBBgameich <jbb.mail@gmx.de>  Fri, 23 Feb 2018 11:19:09 +0100
+
 qtquickcontrols2-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
